@@ -10,7 +10,9 @@ blog_theme: dark # Or use dark
 # Profile information
 name: Ryan Hein
 tagline: Full Stack Developer
-about-description: # Add Discription
+about-description: > # Add Discription
+  Ryan is a Full stack, php, and laravel developer. Hire me to work for your company. I can help you build something beautiful!
+  Ryan is also a people-oriented, sales professional. 
 pic: ryan.png  # Place a 200x200 picture inside /assets/img/ folder and provide the name of the file below
 # Contact links
 email: me@ryanhein.com # Add your Email address
