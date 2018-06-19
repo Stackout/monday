@@ -12,8 +12,7 @@ blog_theme: dark # Or use dark
 name: Ryan Hein
 tagline: Full Stack Developer
 about-description: # Add Discription
-pic: 79.jpg  # Place a 200x200 picture inside /assets/img/ folder and provide the name of the file below
-
+pic: ryan.png  # Place a 200x200 picture inside /assets/img/ folder and provide the name of the file below
 # Contact links
 email: me@ryanhein.com # Add your Email address
 phone: 303-532-9265 # Add your Phone number
