@@ -2,8 +2,12 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
   {% include head.html %}
-
+  
   <body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{site.tagmanager}}"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
 
     {% include header.html %}
 
@@ -16,7 +20,6 @@
     {% include footer.html %}
     {% include javascripts.html %}
     {% include analytics.html %}
-    {% include tagmanager.html %}
   </body>
 
 </html>
