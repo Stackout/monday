@@ -17,14 +17,21 @@ about-description: > # Add Discription
 pic: ryan.png  # Place a 200x200 picture inside /assets/img/ folder and provide the name of the file below
 # Contact links
 email: me@ryanhein.com # Add your Email address
-phone: 303-532-9265 # Add your Phone number
+phone: 831-272-4504 # Add your Phone number
 website: hein.estate # Add your website, do not add http://
 linkedin: # Add your Linkedin handle
 github: stackout # Add your Github handle
 twitter: '@RyanMHein' # Add your Twitter handle
 
-# Tracker
-analytics:
+# Google Analytics Tracker
+analytics: UA-125810085-4
+
+# Google Tag Manager
+tagmanager: GTM-533N3P7
+
+# Google Conversions
+conversion: AW-782371799
+conversion_send: Ns3WCMb70pABENeXiPUC
 
 # Comments
 discus-identifier: # Add your Disqus identifier

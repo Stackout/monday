@@ -10,30 +10,23 @@
   <link href="https://fonts.googleapis.com/css?family=Oswald:400,700|Roboto:400,700" rel="stylesheet">
   <link rel="stylesheet" href="{{ "/assets/fonts/font-awesome/css/font-awesome.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{site.baseurl}}/assets/stylesheets/{% if site.blog_theme == "light" %}light.css{% else %}dark.css{% endif %}">
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125810085-4"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-125810085-4');
-  </script>
-
-
   <!-- Global site tag (gtag.js) - Google Ads: 782371799 -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-782371799"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{site.conversion}}"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
-    gtag('config', 'AW-782371799');
+    gtag('config', '{{site.conversion}}');
   </script>
   <!-- Event snippet for Personal Branding Views conversion page -->
   <script>
-    gtag('event', 'conversion', {'send_to': 'AW-782371799/Ns3WCMb70pABENeXiPUC'});
+    gtag('event', 'conversion', {'send_to': '{{site.conversion}}/{{site.conversion_send}}'});
   </script>
 
 
 </head>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{site.tagmanager}}"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
