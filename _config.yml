@@ -1,7 +1,6 @@
-title: Ryan Hein | Full Stack Developer | PHP Engineer | Software Developer | Laravel Enthusiast
-description: > # this means to ignore newlines until "baseurl:"
-  Ryan is a Full stack, php, and laravel developer. Hire me to work for your company. I can help you build something beautiful!
-  Ryan is also a people-oriented, sales professional. 
+title: Ryan Hein | Software Engineer | Crypto Enthusiast
+description: >
+  Ryan is a skilled software engineer that creates scalable applications for companies of all sizes.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: ':title/'
@@ -9,16 +8,14 @@ blog_theme: dark # Or use dark
 
 # Profile information
 name: Ryan Hein
-tagline: Full Stack Developer
-about-description: > # Add Discription
-  I am a full stack, php, laravel and codeigniter developer. Hire me to work for your company. I can help you build something beautiful!
-  Please view my Resume Below, and contact me through email for references! I have over 14 years expierence in PHP developement,
-  and nearly 6 years expierence in leading people and sales. 
+tagline: Software Engineer
+about-description: >
+  Hi! I'm Ryan. I am a skilled software engineer that has taken on numerous projects over the years. I invented the first automated mining pool deployment platform, democratizing mining pools!
 pic: ryan.png  # Place a 200x200 picture inside /assets/img/ folder and provide the name of the file below
 # Contact links
 email: me@ryanhein.com # Add your Email address
-phone: 831-272-4504 # Add your Phone number
-website: hein.estate # Add your website, do not add http://
+phone: 303-656-6491 # Add your Phone number
+website: pexaproject.com # Add your website, do not add http://
 linkedin: # Add your Linkedin handle
 github: stackout # Add your Github handle
 twitter: '@RyanMHein' # Add your Twitter handle
